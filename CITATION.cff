@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "ClinVeritas: A three-way claim-grounding benchmark for clinical notes"
+title: "ClinVeritas: A work-in-progress clinical claim-grounding dataset and labelling protocol"
 message: "If you use ClinVeritas, please cite this repository and both source datasets (ACI-Bench and PriMock57)."
 type: dataset
 authors:
@@ -8,8 +8,8 @@ authors:
     alias: Hc1012
 repository-code: "https://github.com/Hc1012/ClinVeritas"
 abstract: >-
-  ClinVeritas is a work-in-progress, single-rater benchmark for grounding of AI-generated and
-  human-written clinical notes against consultation transcripts. Each note claim is labelled
+  ClinVeritas is a work-in-progress, single-rater clinical claim-grounding dataset and labelling
+  protocol for transcript-grounded note verification. Each note claim is labelled
   Supported, Contradicted, or Insufficient under a frozen human-labelling protocol, with an
   emphasis on the Insufficient (abstention) class as the safety-relevant target. Built on the
   ACI-Bench and PriMock57 datasets (both CC BY 4.0).
@@ -18,7 +18,7 @@ keywords:
   - hallucination detection
   - grounding
   - AI medical scribes
-  - benchmark
+  - benchmark-development
 license: CC-BY-4.0
 references:
   - type: article
