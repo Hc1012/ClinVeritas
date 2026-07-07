@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Source datasets — do NOT commit; clone from upstream (see README / DATA_LICENSES.md)
+aci-bench/
+primock57/
+primock57_txt/
+pm57_out/
+
+# Raw per-chunk rater outputs before merge (keep only the merged *_PREDICTIONS_MERGED.jsonl)
+E1_OUTPUT_ROWS_*.jsonl
+*(1).jsonl
+
+# Scratch
+tmp/
+scratch/
+*.log

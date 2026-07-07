@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: "ClinVeritas: A three-way claim-grounding benchmark for clinical notes"
+message: "If you use ClinVeritas, please cite this repository and both source datasets (ACI-Bench and PriMock57)."
+type: dataset
+authors:
+  - family-names: Chamas
+    given-names: Hadi
+    alias: Hc1012
+repository-code: "https://github.com/Hc1012/ClinVeritas"
+abstract: >-
+  ClinVeritas is a work-in-progress, single-rater benchmark for grounding of AI-generated and
+  human-written clinical notes against consultation transcripts. Each note claim is labelled
+  Supported, Contradicted, or Insufficient under a frozen human-labelling protocol, with an
+  emphasis on the Insufficient (abstention) class as the safety-relevant target. Built on the
+  ACI-Bench and PriMock57 datasets (both CC BY 4.0).
+keywords:
+  - clinical NLP
+  - hallucination detection
+  - grounding
+  - AI medical scribes
+  - benchmark
+license: CC-BY-4.0
+references:
+  - type: article
+    title: "Aci-bench: a novel ambient clinical intelligence dataset for benchmarking automatic visit note generation"
+    authors:
+      - family-names: Yim
+        given-names: Wen-wai
+    year: 2023
+    journal: "Scientific Data"
+  - type: conference-paper
+    title: "PriMock57: A Dataset of Primary Care Mock Consultations"
+    authors:
+      - family-names: Papadopoulos Korfiatis
+        given-names: Alex
+    year: 2022
+    collection-title: "Proceedings of ACL"

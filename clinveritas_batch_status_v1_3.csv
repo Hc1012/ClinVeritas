@@ -1,0 +1,4 @@
+batch,version,candidate_rows,included_rows,excluded_rows,S,S*,I,C,status
+SN40 primock57 safety-netting,v1.1,40,39,1,20,3,7,9,adjudicated single-rater; κ pending
+Consent121 ACI-Bench consent,v1.2,121,121,0,86,0,35,0,adjudicated single-rater; κ pending
+ACISN75 ACI-Bench safety-netting,v1.3,75,59,16,47,4,2,6,adjudicated single-rater; κ pending
