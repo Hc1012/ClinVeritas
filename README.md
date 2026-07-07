@@ -1,6 +1,6 @@
 # ClinVeritas
 
-ClinVeritas is a work in progress clinical claim grounding dataset and labelling protocol for transcript-grounded note verification, focused on Supported / Contradicted / Insufficient decisions.
+ClinVeritas is a work in progress clinical claim grounding dataset and labelling protocol for transcript grounded note verification, focused on Supported / Contradicted / Insufficient decisions.
 
 It is intended to become a benchmark after second rater reliability and held out evaluation, the current public release is single-rater and pre-κ.
 
