@@ -2,7 +2,7 @@
 
 ClinVeritas is a work in progress clinical claim grounding dataset and labelling protocol for transcript grounded note verification, focused on Supported / Contradicted / Insufficient decisions.
 
-It is intended to become a benchmark after second rater reliability and held out evaluation, the current public release is single-rater and pre-κ.
+It is intended to become a benchmark after second rater reliability and held out evaluation, the current public release is single rater and pre-κ.
 
 AI medical scribes are one of the largest current deployment wave of clinical AI. Their documented failure mode is not fluency but *grounding*: notes that assert things the consultation never established. The dangerous cases are rarely wild fabrications, they are plausible clinical specifics filled in where the transcript was silent or hedged. Detecting "this claim cannot be verified from the encounter" is exactly the judgement human reviewers are currently paid to make, and exactly the class frontier models handle worst.
 
