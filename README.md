@@ -1,14 +1,14 @@
 # ClinVeritas
 
-ClinVeritas is a work-in-progress clinical claim-grounding dataset and labelling protocol for transcript-grounded note verification, focused on Supported / Contradicted / Insufficient decisions.
+ClinVeritas is a work in progress clinical claim grounding dataset and labelling protocol for transcript-grounded note verification, focused on Supported / Contradicted / Insufficient decisions.
 
-It is intended to become a benchmark after second-rater reliability and held-out evaluation; the current public release is single-rater and pre-κ.
+It is intended to become a benchmark after second rater reliability and held out evaluation, the current public release is single-rater and pre-κ.
 
-AI medical scribes are the largest current deployment wave of clinical AI. Their documented failure mode is not fluency but *grounding*: notes that assert things the consultation never established. The dangerous cases are rarely wild fabrications, they are plausible clinical specifics filled in where the transcript was silent or hedged. Detecting "this claim cannot be verified from the encounter" is exactly the judgement human reviewers are currently paid to make, and exactly the class frontier models handle worst.
+AI medical scribes are one of the largest current deployment wave of clinical AI. Their documented failure mode is not fluency but *grounding*: notes that assert things the consultation never established. The dangerous cases are rarely wild fabrications, they are plausible clinical specifics filled in where the transcript was silent or hedged. Detecting "this claim cannot be verified from the encounter" is exactly the judgement human reviewers are currently paid to make, and exactly the class frontier models handle worst.
 
 ClinVeritas is the clinical sibling of [RepoVeritas](https://github.com/Hc1012/RepoVeritas) ("FEVER for code"): given a (consultation transcript, note-claim) pair, label it **SUPPORTED**, **CONTRADICTED**, or **INSUFFICIENT**, under a frozen human labelling protocol with binding precedents and a planned inter-rater reliability study.
 
-> **Status: work in progress, single-rater.** 219 candidate rows across three batches have been human-labelled and adjudicated under a frozen protocol (guidelines v1 + amendments v1.1–v1.3). An automated-rater prompt-sensitivity study (E1/E1b/E1c) has been run over these rows. **Not yet done and required before this is a benchmark:** a second-rater inter-rater-reliability (κ) study, and Stage-2 model-generated-note rows. All labels are single-rater author adjudicated. Numbers below are reproducible from committed artifacts; none should be quoted as a final benchmark result.
+> **Status: work in progress, single-rater.** 219 candidate rows across three batches have been human labelled and adjudicated under a frozen protocol (guidelines v1 + amendments v1.1–v1.3). An automated-rater prompt-sensitivity study (E1/E1b/E1c) has been run over these rows. **Not yet done and required before this is a benchmark:** a second rater inter rater reliability (κ) study, and Stage 2 model generated note rows. All labels are single rater author adjudicated. Numbers below are reproducible from committed artifacts; none should be quoted as a final benchmark result.
 
 ## Reviewer path
 
